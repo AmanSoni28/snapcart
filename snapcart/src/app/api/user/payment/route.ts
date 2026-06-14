@@ -52,7 +52,7 @@ export async function POST(req: NextRequest) {
         metadata:{orderId:String(newOrder._id)}             //which is pass to webhook
     })
 
-    await Order.findByIdAndUpdate(newOrder._id,{isPaid:true})
+  
 
     return NextResponse.json(
         {url:session.url},
