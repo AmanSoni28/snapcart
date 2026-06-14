@@ -1,4 +1,6 @@
-# video 1
+Step-by-Step Process of Building This Project
+
+# Step:1
 1.install -> mongoose axios bcrypt
 2.create models -> user.model.ts
 3.create lib/db.ts and globle.d.ts 
@@ -38,7 +40,7 @@ and in backend we use 'auth'
 17.create api/admin/add-grocery
 18.create app/admin/add-grocery 
 
-# Video 2
+# Step 2
 19.create component/categorySlider.tsx and use in userDash.tsx
 20.create component/groceryItemCard.tsx and use in userDash.tsx
 
@@ -97,7 +99,7 @@ use stripe : https://dashboard.stripe.com/acct_1Tbnd5FDr9VLkeWk/test/dashboard,
 50.add 'await emitEventHandler("new-assignment",deliveryAssignment)' in api/user/order 
 51.create useEffect() in component/deliveryBoyDashboard 
 
-
+# Step:3
 <----------------------------------------------------------------------------------->
 52.create api/deliviry/assignment/[id]/accept-assignment and use in component/deliveryBoyDashboard
 53.add deliveruBoy Info in component/userOrderCard
@@ -145,7 +147,7 @@ for chart : use recharts : (npm i recharts)
 74.create api/admin/get-groceries, api/admin/edit-grocery and api/admin/delete-grocery and use in app/admin/view-grocery
 75.write the code in component/deliveryBoy and use in component/deliveryBoyDashboard
 
-# Video 4 
+# Video 4
 76.write the code for search in nav and use in app/page.tsx
 77.create componenet/footer and use in app/page.tsx
 
