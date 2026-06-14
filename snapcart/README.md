@@ -147,11 +147,12 @@ for chart : use recharts : (npm i recharts)
 74.create api/admin/get-groceries, api/admin/edit-grocery and api/admin/delete-grocery and use in app/admin/view-grocery
 75.write the code in component/deliveryBoy and use in component/deliveryBoyDashboard
 
-# Video 4
+# Step 4
 76.write the code for search in nav and use in app/page.tsx
 77.create componenet/footer and use in app/page.tsx
 
 <----------------------Deploy : after 1 hour------------------------>
+
 
 
 
